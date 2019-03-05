@@ -1,0 +1,36 @@
+h1#super_title {
+    color: red;
+}
+
+.important_paragraph {
+    color: blue;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#paragraph2 {
+    background-color: lime;
+}
+
+p[title=abc] {
+    color: orange;
+}
+
+.paragraph_x {
+    border: 5px solid #cc66ff;
+}
+
+#box1 {
+    border: 3px dotted blue;
+    width: 200px;
+    height: 300px;
+    margin-left: 50px;
+    margin-top: 20px;
+    padding: 30px;
+}
+
+#box2 {
+    border: 2px solid red;
+    width: 100px;
+    height: 100px;
+}
