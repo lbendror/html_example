@@ -1,0 +1,25 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+<head>
+    <title>Calculator</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="css/calculator.css" />
+    <script src="js/calculator.js"></script>
+</head>
+<body>
+    <div id="calculator">
+        <h1>JavaScript Calculator</h1>
+        <div id="calc_body">
+            <input type="text" id="number1" class="calc_input" value="0">
+            <select id="operator_select">
+                <option value="+"> &plus; </option>
+                <option value="-"> &ndash; </option>
+                <option value="*"> &times; </option>
+                <option value="/"> &divide; </option>
+            </select>
+            <input type="text" id="number2" class="calc_input" value="0">
+            <button id="equals_btn" onclick="calculate()"> = </button>
+            <input type="text" id="result" class="calc_input" value="0" readonly>
+        </div>
+    </div>
+</body>
+</html>
